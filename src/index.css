@@ -1,3 +1,10 @@
+@import "@fortawesome/fontawesome-free/css/fontawesome.css";
+@import "@material/button/mdc-button.scss";
+@import "@material/drawer/mdc-drawer.scss";
+@import "@material/top-app-bar/mdc-top-app-bar.scss";
+@import "@material/list/mdc-list.scss";
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +17,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.stats p{
+  color:'red'
 }
